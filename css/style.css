@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 2200px;
+}
+.header-container{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    box-shadow: 0 1px 7px ;
+    background-color: white;
+    z-index: 5;
+}
+.title-btn{
+    margin-left: 25px;
+}
+.title-btn button{
+    padding: 15px;
+    margin-top: 10px;
+    letter-spacing: 4px;
+    font-size: 15px;
+    border: 0;
+    background-color: white;
+}
+.title-btn button span{
+    font-weight: bolder;
+}
+.title-btn button:hover{
+    cursor: pointer;
+    background-color: rgb(214, 213, 213);
+}
+.list-btn{
+     margin-right: 25px;
+}
+.list-btn button{
+     padding: 15px;
+    margin-top: 10px;
+    letter-spacing: 4px;
+    font-size: 15px;
+    border: 0;
+    background-color: white;
+}
+.list-btn button:hover{
+    cursor: pointer;
+    background-color: rgb(214, 213, 213);
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+.main-img{
+    width: 100%;
+    height: 715px;
+    background-image:url(../images/architect\ \(1\).jpg) ;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 80px;
+}
+.main-img h2{
+    /* Hero Image */
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+     text-align: center;
+     /* ////////////////////////////// */
+     color:aliceblue;
+     font-size: 40px;
+      letter-spacing: 5px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-img h2 span{
+    background-color: black;
+    padding: 5px 15px;
+    opacity: .7;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.section-container{
+    width: 95%;
+    margin: auto;
+}
+.title-projects{
+    font-size: 27px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.projects-1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly
+}
+.projects-1 div img{
+   width: 95%;
+   height: 220px;
+}
+.projects-2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly
+}
+.projects-2 div img{
+   width: 95%;
+   height: 220px;
+   margin-bottom: 50px;
+}
+/* ////////////////////////////////////////////////////////////// */
+.about{
+     width: 95%;
+    margin: auto;
+}
+.about h2{
+     font-size: 27px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.about p{
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 80px;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.contact-section{
+    margin: auto;
+    width: 95%;
+}
+.contact-title h2{
+    font-size: 27px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      margin-bottom: 20px;
+}
+.contact-title p{
+    font-size: 15px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      margin-top: 40px;
+      margin-bottom: 20px;
+}
+.sign input{
+    display: block;
+    width: 50%;
+    height: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.sign-btn{
+    font-size: 15px;
+    padding:12px 15px;
+    background-color: black;
+    color: white;
+    border: solid;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sign-btn:hover{
+    cursor: pointer;
+    background-color: rgb(198, 196, 196);
+    color: black;
+    border : rgb(198, 196, 196);
+}
+.footer{
+    height: 100px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
